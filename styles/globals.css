@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap'); */
+@import url("https://fonts.googleapis.com/css?family=Prompt");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Prompt";
+}
+
+.card {
+  /* height: auto; */
+  box-shadow: -1px 8px 20px -11px rgb(0 0 0 / 75%);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.bg-light {
+  z-index: 1000;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: rgb(35, 34, 34);
+  }
+}
+/* .google-translate {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+} */
+
+.goog-te-gadget .goog-te-combo {
+  background-color: azure !important;
+  color: black !important;
+  font-family: "Prompt" !important;
+  mix-blend-mode: overlay;
+  /* padding: 1px 12px !important;
+  z-index: 9999 !important;
+  border-radius: 40px; */
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+/* #google_translate_element {
+  display: none;
+} */
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+#basic-nav-dropdown {
+  color: black;
+}
+
+#goog-gt-tt {
+  display: none !important;
+  top: 0px !important;
+}
+.goog-tooltip skiptranslate {
+  display: none !important;
+  top: 0px !important;
+}
+.activity-root {
+  display: hide !important;
+}
+.status-message {
+  display: hide !important;
+}
+.started-activity-container {
+  display: hide !important;
+}
+
+#google_translate_element {
+  display: flex;
+  margin-top: -31px;
+  margin-left: 50px;
+}
+

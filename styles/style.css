@@ -1,0 +1,17 @@
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 22px !important;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgb(26, 19, 19) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .carousel-control-next,
+.carousel-control-prev, */
+
+.carousel-indicators {
+  filter: invert(100%);
+}

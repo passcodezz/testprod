@@ -1,0 +1,274 @@
+.header.active {
+  height: auto;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+
+.textpurple {
+  color: #0d0c0d;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconphone {
+  /* margin-top: 500px; */
+  border-radius: 50%;
+}
+
+#hero h2 {
+  /* font-size: 50px; */
+  font-weight: bold;
+  color: #502768;
+}
+#hero h2 span {
+  /* color: black; */
+  color: #7f5698;
+  padding-top: 20vh;
+}
+
+#collasible-nav-dropdown {
+  color: rgb(0, 0, 0);
+}
+
+.Navbarcolor {
+  /* background: #7f5698; */
+  background: #352140;
+  background: -webkit-linear-gradient(
+    left,
+    rgb(77, 41, 83),
+    rgb(50 6 67)
+  ); /* For Safari 5.1 to 6.0 */
+
+  color: #fff;
+}
+
+/* .Navbar{
+  position:fixed;
+} */
+
+#textheader {
+  color: #fff;
+  font-size: 14px;
+}
+
+.text {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero {
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+  /* background: #ffffff; */
+  /* background-image: url("../public/images/earth5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+#hero .container {
+  padding-top: 0px;
+}
+
+#hero h1 {
+  font-weight: bold;
+  color: rgb(43, 43, 43);
+}
+
+#hero p {
+  color: rgb(43, 43, 43);
+}
+
+#hero .btngetstarted {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  /* background: #7f5698; */
+  background: -webkit-linear-gradient(left, rgb(94, 58, 99), rgb(123, 77, 141));
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+#hero .btngetstarteds {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: rgb(31, 31, 31);
+  background: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+  border-color: #603c74;
+  border-style: solid;
+}
+
+#hero .btngetstarteds:hover {
+  background: -webkit-linear-gradient(
+    left,
+    rgb(100, 61, 106),
+    rgb(123, 77, 141)
+  );
+  color: rgb(255, 255, 255);
+}
+
+#hero .btn-watch-video {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  color: #fff;
+  line-height: 1;
+}
+#hero .btn-watch-video i {
+  line-height: 0;
+  color: #fff;
+  font-size: 32px;
+  transition: 0.3s;
+  margin-right: 8px;
+}
+
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+#hero .heroimg {
+  text-align: center;
+  margin: 2rem;
+}
+
+#hero .heroimg Image {
+  width: 45%;
+  margin-right: 80px;
+}
+
+@media (max-width: 991px) {
+  #textheader {
+    display: none;
+  }
+
+  #hero {
+    width: 100%;
+    height: 110vh;
+  }
+
+  /*แก้รูปตรงนี้*/
+  /* #hero .hero-img img {
+    display: none;
+  } */
+  #hero .heroimg Image {
+    width: 50%;
+    margin-right: 150px;
+  }
+  .Navbarcolor {
+    /* background: #7f5698; */
+    background-color: #352140;
+    background: -webkit-linear-gradient(
+      left,
+      rgb(77, 41, 83),
+      rgb(50 6 67)
+    );
+    color: #fff;
+    height: 4.3rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .text {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  #hero {
+    height: 80vh;
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero {
+    padding: 0px;
+    height: 135vh;
+    text-align: center;
+  }
+
+  #hero .heroimg Image {
+    width: 50%;
+    margin-right: 90px;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 0px;
+  }
+
+  #hero .btngetstarted {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .Navbarcolor {
+    background: #352140;
+    background: -webkit-linear-gradient(
+      left,
+      rgb(77, 41, 83),
+      rgb(50 6 67)
+    );
+    color: #fff;
+    height: 3rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  #hero {
+    padding: 0px;
+    height: 140vh;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #hero h1 {
+    font-size: 23px;
+    line-height: 36px;
+    margin-top: 0px;
+  }
+  .Navbarcolor {
+    background: #352140;
+    background: -webkit-linear-gradient(
+      left,
+      rgb(77, 41, 83),
+      rgb(50 6 67)
+    );
+    color: #fff;
+    height: 3rem;
+    padding-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,32 @@
+.content {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .cardbg{
+    background: #ffffff; 
+    background-image: url("../public/images/earth5.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  }
+  
+  .containersitemaps h1 {
+    text-align: center;
+  }
+  
+  .containersitemaps .card {
+    height: auto;
+    box-shadow: -1px 8px 20px -11px rgb(0 0 0 / 75%);
+   
+  }
+  
+  .containersitemaps a {
+    color: black;
+  }
+  
+  .containersitemaps a:hover {
+    color: rgb(158, 58, 195);
+    
+  }

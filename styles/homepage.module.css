@@ -1,0 +1,176 @@
+/* ส่วน page Section_image */
+
+.section_image {
+  background: #f3f3f3;
+  padding: 20px;
+  /* margin-bottom: 40px; */
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.section_image_in {
+  /* width: 100px; */
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  /* border-radius: 50%; */
+}
+
+#img_slide {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 10px; */
+}
+
+.boxtextinner {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  #img_slide {
+    height: 200px;
+  }
+
+  #img_slide {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+/* ส่วน Section_Image_Carousel --------------------------------------------------*/
+
+.Section_Image_Carousel {
+  margin-bottom: 0rem;
+}
+
+.Text_Carousel {
+  background: #dee2e6;
+  color: black;
+  mix-blend-mode: hard-light;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-next:before,
+.slick-prev::after {
+  font-size: 27px;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgb(26, 19, 19) !important;
+}
+
+.image_carousel {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.image_carousel img {
+  object-fit: cover;
+}
+
+.img {
+  object-fit: cover;
+  /* padding: 5px;
+    border-radius: 10px; */
+}
+
+/* ส่วน Section_card ------------------------------------------------------------ */
+
+.card {
+  height: 450px;
+  margin: 10px;
+  box-shadow: -1px 11px 24px -11px rgb(0 0 0 / 75%);
+  transition: 0.5s;
+  border-radius: 25px;
+}
+
+.cardtext:hover {
+  color: #304d97;
+}
+
+.Section_card a {
+  text-decoration: none;
+  color: black;
+}
+
+.Section_card p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.image_carousel p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: auto;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+.image_carousel h3 {
+  height: auto;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+
+.CardGroup {
+  margin: 30px;
+}
+
+.Section_card {
+  margin: 50px;
+}
+
+.Section_card h5 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Section_card h4 {
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 25px;
+  /* border-style: solid;
+    border-color: rgb(201, 201, 201);
+    box-shadow: -1px 11px 6px -11px rgb(0 0 0 / 75%); */
+}
+
+.p-3 {
+  padding: 7px !important;
+}
+
+.Section_card .card:hover {
+  transform: translateY(-20px);
+  box-shadow: -10px 20px 30px -11px rgb(0 0 0 / 75%);
+}
+
+@media (max-width: 850px) {
+  .card {
+    height: 350px;
+    margin: 10px;
+    box-shadow: -1px 11px 24px -11px rgb(0 0 0 / 75%);
+    transition: 0.5s;
+  }
+}
+

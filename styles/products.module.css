@@ -1,0 +1,18 @@
+.content {
+  /* background-color: white; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.containerproducts h1 {
+  text-align: center;
+}
+
+.containerproducts .card {
+  height: auto;
+  box-shadow: -1px 8px 20px -11px rgb(0 0 0 / 75%);
+}
+
+.card a {
+  text-decoration: none;
+}

@@ -33,52 +33,52 @@ const Testimoni = ({
       image: "/assets/machinery/Ultra Sonic.png",
     },
     {
-      image: "/assets/machinery/เครื่องตัดผ้า -PICTURE-1 (1).png",
+      image: "/assets/machinery/PICTURE-1 (1).png",
     },
     {
-      image: "/assets/machinery/เครื่องตัดผ้า -PICTURE-1 (2).png",
+      image: "/assets/machinery/PICTURE-1 (2).png",
     },
     {
-      image: "/assets/machinery/เครื่องตัดผ้า -PICTURE-1 (3).png",
+      image: "/assets/machinery/PICTURE-1 (3).png",
     },
     {
-      image: "/assets/machinery/เครื่องตัดผ้า -PICTURE-1 (4).png",
+      image: "/assets/machinery/PICTURE-1 (4).png",
     },
     {
-      image: "/assets/machinery/เครื่องตัดผ้า -PICTURE-1.png",
+      image: "/assets/machinery/PICTURE-1.png",
     },
     {
-      image: "/assets/machinery/จำหน่าย รถ AGV (1).png",
+      image: "/assets/machinery/AGV (1).png",
     },
     {
-      image: "/assets/machinery/จำหน่าย รถ AGV (2).png",
+      image: "/assets/machinery/AGV (2).png",
     },
     {
-      image: "/assets/machinery/จำหน่าย รถ AGV (3).png",
+      image: "/assets/machinery/AGV (3).png",
     },
     {
-      image: "/assets/machinery/จำหน่าย รถ AGV (4).png",
+      image: "/assets/machinery/AGV (4).png",
     },
     // {
-    //   image: "/assets/machinery/จำหน่าย รถ AGV.png",
+    //   image: "/assets/machinery/AGV.png",
     // },
     {
-      image: "/assets/machinery/รูป หน้าเครื่องบรรจุ (1).png",
+      image: "/assets/machinery/(1).png",
     },
     {
-      image: "/assets/machinery/รูป หน้าเครื่องบรรจุ (2).png",
+      image: "/assets/machinery/(2).png",
     },
     {
-      image: "/assets/machinery/รูป หน้าเครื่องบรรจุ (3).png",
+      image: "/assets/machinery/(3).png",
     },
     {
-      image: "/assets/machinery/รูป หน้าเครื่องบรรจุ (4).png",
+      image: "/assets/machinery/(4).png",
     },
     {
-      image: "/assets/machinery/รูป หน้าเครื่องบรรจุ (5).png",
+      image: "/assets/machinery/(5).png",
     },
     {
-      image: "/assets/machinery/รูป หน้าเครื่องบรรจุ.png",
+      image: "/assets/machinery/(0).png",
     },
   ],
 }) => {
